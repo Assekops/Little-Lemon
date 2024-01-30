@@ -159,8 +159,26 @@ article:hover {
   background-color: lightgray;
   cursor: pointer;
 }
+/* article button */
+.button-link {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #f4ce14; /* Button background color */
+  color: #000; /* Button text color */
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  border-radius: 20px; /* Rounded corners */
+  border: 2px solid #f4ce14; /* Button border */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+  margin: 1em;
+}
 
-/* footer */
+.button-link:hover {
+  background-color: #e0b807; /* Hover background color */
+  border-color: #e0b807; /* Hover border color */
+}
+/* article button */
+/* footer original*/
 footer {
   display: flex;
   margin-top: 3rem;
@@ -177,6 +195,7 @@ footer p {
   margin-top: 1rem;
   font-size: 1.2rem;
 }
+/* footer original*/
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
@@ -225,7 +244,5 @@ footer p {
 
   footer div p {
     font-size: 0.8rem;
-    /* margin-top: 1rem;
-    font-size: 1.2rem; */
   }
 }
