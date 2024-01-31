@@ -168,16 +168,17 @@ article:hover {
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   border-radius: 20px; /* Rounded corners */
-  border: 2px solid #f4ce14; /* Button border */
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+  border: 2px solid #f4ce14;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   margin: 1em;
 }
 
 .button-link:hover {
-  background-color: #e0b807; /* Hover background color */
-  border-color: #e0b807; /* Hover border color */
+  background-color: #e0b807;
+  border-color: #e0b807;
 }
 /* article button */
+
 /* footer original*/
 footer {
   display: flex;
